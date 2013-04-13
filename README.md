@@ -6,7 +6,7 @@ Originally by Leenix (http://lenix.co.uk), modified for CodeIgnite by Daniel Ser
 
 ###USAGE:
 			$this->load->library('Excel');
-			$this->Excel->set_file_name('Filename.xcls');
+			$this->Excel->set_file_name('Filename.xls');
 			$this->Excel->addHeader('Name');
 			$this->Excel->addHeader('Sex');
 			$this->Excel->addRow('Daniel');
